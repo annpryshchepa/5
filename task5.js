@@ -6,7 +6,7 @@ const people = [];
 
   function lookUpProfile (firstName, prop) {
     for(let i=0; i<people.length; i++){
-    if (people[i].firstName === firstName) {
+    if (people[i].firstName == firstName) {
       if (people[i][prop] == firstName[prop]) {
       return "No such property"
     }
